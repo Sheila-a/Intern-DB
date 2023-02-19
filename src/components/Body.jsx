@@ -1,10 +1,10 @@
 import { Box, ListItem, Stack } from "@mui/material";
 import React from "react";
-import arrow from "../assets/image/double-arrow.png";
-import home from "../assets/image/home.png";
-import dashboard from "../assets/image/dashboard.png";
-import settings from "../assets/image/setting.png";
-import curriculum from "../assets/image/approved.png";
+import arrow from "../assets/icons/double-arrow.png";
+import home from "../assets/icons/home.png";
+import dashboard from "../assets/icons/dashboard.png";
+import settings from "../assets/icons/setting.png";
+import curriculum from "../assets/icons/approved.png";
 import Tables from "./Table";
 
 function Body() {
