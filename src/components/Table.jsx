@@ -141,18 +141,7 @@ function Tables() {
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
-          <TableContainer
-            component={Paper}
-            style={{
-              width: "100%",
-              backgroundColor: "white",
-              borderRadius: "5px",
-              boxShadow: "rgba(0, 0, 0, 0.1) 0px 5px 15px",
-
-              // margin: "0vh 5vh",
-              // padding: "3vh",
-            }}
-          >
+          <TableContainer className="table-container-body" component={Paper}>
             <Table aria-label="customized table" style={{ maxWidth: "100%" }}>
               <StyledTableHead
                 style={{ maxWidth: "100%", backgroundColor: "red" }}

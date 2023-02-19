@@ -131,6 +131,12 @@ p:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
 }
 
+.table-container-body {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
 
 @media screen and (max-width: 430px) {
     .headr {
@@ -138,8 +144,7 @@ p:hover {
     }
 
     .Body-container {
-        margin: 0 5vh;
-        height: 100vh;
+        margin: 0 1.5vh;
         flex-direction: column !important;
     }
 
@@ -162,7 +167,8 @@ p:hover {
     }
 
     .section-body {
-        margin: 2vh;
+        margin: 1.5vh;
+        padding: 1vh;
     }
 
     /* TABLE BEGINS */
@@ -174,9 +180,16 @@ p:hover {
         display: inline;
     }
 
-    .table-container-head:nth-child(4) {
-        display: inline-flex;
+    .MuiBox-root,
+    .css-19midj6 {
+        padding: .1vh !important;
     }
 
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+        font-size: 10px !important;
+        max-width: 100% !important;
+        flex-wrap: wrap;
+    }
 
+    .table-container-body {}
 }
