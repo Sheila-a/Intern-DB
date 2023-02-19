@@ -1,12 +1,48 @@
 body {
-    background: linear-gradient(35deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(5deg, #ee7752, #23a6d5, #e73c7e);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    height: 90vh;
+    /* height: 90vh; */
+    background-position: fixed;
 }
 
 p {
-    color: #cde6f0;
+    color: rgba(35, 166, 213, 1);
+    margin: auto 0vh;
+    cursor: pointer;
+}
+
+
+
+p:hover {
+    color: #e73c7e;
+}
+
+.sidee {
+    padding: 0 2vh;
+}
+
+.sidee:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.side-icns {
+    width: 13%;
+    object-fit: contain;
+    padding: 0;
+    margin-right: 4vh;
+}
+
+.styledTR:hover {
+    opacity: .5;
+}
+
+.TBHead {
+    /* background: linear-gradient(5deg, #ee7752, #23a6d5, #e73c7e); */
+    /*  */
+    background-color: #23a6d5 !important;
+    font-family: "Poppins" !important;
 }
 
 /* @keyframes gradient {
@@ -22,3 +58,5 @@ p {
         background-position: 0% 50%;
     }
 } */
+/* :nth-child() */
+/* color: green; */

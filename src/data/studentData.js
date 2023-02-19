@@ -6,7 +6,8 @@ export const studentData = [
     sex: "M",
     grade1: 89,
     grade2: 42,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 131,
   },
   {
     id: 2,
@@ -15,7 +16,8 @@ export const studentData = [
     sex: "F",
     grade1: 7,
     grade2: 2,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 9,
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ export const studentData = [
     sex: "F",
     grade1: 23,
     grade2: 98,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 121,
   },
   {
     id: 4,
@@ -33,7 +36,8 @@ export const studentData = [
     sex: "M",
     grade1: 84,
     grade2: 61,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 145,
   },
   {
     id: 5,
@@ -42,7 +46,8 @@ export const studentData = [
     sex: "F",
     grade1: 36,
     grade2: 9,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 45,
   },
   {
     id: 6,
@@ -51,7 +56,8 @@ export const studentData = [
     sex: "M",
     grade1: 98,
     grade2: 53,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 151,
   },
   {
     id: 7,
@@ -60,7 +66,8 @@ export const studentData = [
     sex: "M",
     grade1: 56,
     grade2: 92,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 148,
   },
   {
     id: 8,
@@ -69,7 +76,8 @@ export const studentData = [
     sex: "M",
     grade1: 22,
     grade2: 21,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 43,
   },
   {
     id: 9,
@@ -78,7 +86,8 @@ export const studentData = [
     sex: "F",
     grade1: 77,
     grade2: 62,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 139,
   },
   {
     id: 10,
@@ -87,7 +96,8 @@ export const studentData = [
     sex: "F",
     grade1: 62,
     grade2: 46,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 108,
   },
   {
     id: 11,
@@ -96,7 +106,8 @@ export const studentData = [
     sex: "M",
     grade1: 87,
     grade2: 89,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 176,
   },
   {
     id: 12,
@@ -105,7 +116,8 @@ export const studentData = [
     sex: "F",
     grade1: 6,
     grade2: 7,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 13,
   },
   {
     id: 13,
@@ -114,7 +126,8 @@ export const studentData = [
     sex: "F",
     grade1: 56,
     grade2: 80,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 136,
   },
   {
     id: 14,
@@ -123,7 +136,8 @@ export const studentData = [
     sex: "M",
     grade1: 57,
     grade2: 12,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 69,
   },
   {
     id: 15,
@@ -132,7 +146,8 @@ export const studentData = [
     sex: "F",
     grade1: 57,
     grade2: 37,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 94,
   },
   {
     id: 16,
@@ -141,7 +156,8 @@ export const studentData = [
     sex: "M",
     grade1: 40,
     grade2: 39,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 79,
   },
   {
     id: 17,
@@ -150,7 +166,8 @@ export const studentData = [
     sex: "M",
     grade1: 37,
     grade2: 54,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 91,
   },
   {
     id: 18,
@@ -159,7 +176,8 @@ export const studentData = [
     sex: "M",
     grade1: 72,
     grade2: 92,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 164,
   },
   {
     id: 19,
@@ -168,7 +186,8 @@ export const studentData = [
     sex: "F",
     grade1: 20,
     grade2: 100,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 120,
   },
   {
     id: 20,
@@ -177,7 +196,8 @@ export const studentData = [
     sex: "F",
     grade1: 69,
     grade2: 72,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 141,
   },
   {
     id: 21,
@@ -186,7 +206,8 @@ export const studentData = [
     sex: "F",
     grade1: 43,
     grade2: 24,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 67,
   },
   {
     id: 22,
@@ -195,7 +216,8 @@ export const studentData = [
     sex: "F",
     grade1: 75,
     grade2: 47,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 122,
   },
   {
     id: 23,
@@ -204,7 +226,8 @@ export const studentData = [
     sex: "M",
     grade1: 83,
     grade2: 53,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 136,
   },
   {
     id: 24,
@@ -213,7 +236,8 @@ export const studentData = [
     sex: "F",
     grade1: 31,
     grade2: 53,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 84,
   },
   {
     id: 25,
@@ -222,7 +246,8 @@ export const studentData = [
     sex: "F",
     grade1: 20,
     grade2: 51,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 71,
   },
   {
     id: 26,
@@ -231,7 +256,8 @@ export const studentData = [
     sex: "M",
     grade1: 87,
     grade2: 46,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 133,
   },
   {
     id: 27,
@@ -240,7 +266,8 @@ export const studentData = [
     sex: "M",
     grade1: 10,
     grade2: 88,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 98,
   },
   {
     id: 28,
@@ -249,7 +276,8 @@ export const studentData = [
     sex: "F",
     grade1: 54,
     grade2: 25,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 79,
   },
   {
     id: 29,
@@ -258,7 +286,8 @@ export const studentData = [
     sex: "M",
     grade1: 10,
     grade2: 41,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 51,
   },
   {
     id: 30,
@@ -267,7 +296,8 @@ export const studentData = [
     sex: "F",
     grade1: 99,
     grade2: 97,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 196,
   },
   {
     id: 31,
@@ -276,7 +306,8 @@ export const studentData = [
     sex: "F",
     grade1: 28,
     grade2: 61,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 89,
   },
   {
     id: 32,
@@ -285,7 +316,8 @@ export const studentData = [
     sex: "F",
     grade1: 1,
     grade2: 53,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 54,
   },
   {
     id: 33,
@@ -294,7 +326,8 @@ export const studentData = [
     sex: "F",
     grade1: 59,
     grade2: 31,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 90,
   },
   {
     id: 34,
@@ -303,7 +336,8 @@ export const studentData = [
     sex: "F",
     grade1: 66,
     grade2: 29,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 95,
   },
   {
     id: 35,
@@ -312,7 +346,8 @@ export const studentData = [
     sex: "F",
     grade1: 8,
     grade2: 44,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 52,
   },
   {
     id: 36,
@@ -321,7 +356,8 @@ export const studentData = [
     sex: "M",
     grade1: 66,
     grade2: 76,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 142,
   },
   {
     id: 37,
@@ -330,7 +366,8 @@ export const studentData = [
     sex: "F",
     grade1: 29,
     grade2: 99,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 128,
   },
   {
     id: 38,
@@ -339,7 +376,8 @@ export const studentData = [
     sex: "F",
     grade1: 24,
     grade2: 86,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 110,
   },
   {
     id: 39,
@@ -348,7 +386,8 @@ export const studentData = [
     sex: "M",
     grade1: 57,
     grade2: 83,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 140,
   },
   {
     id: 40,
@@ -357,7 +396,8 @@ export const studentData = [
     sex: "M",
     grade1: 55,
     grade2: 99,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 154,
   },
   {
     id: 41,
@@ -366,7 +406,8 @@ export const studentData = [
     sex: "M",
     grade1: 89,
     grade2: 38,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 127,
   },
   {
     id: 42,
@@ -375,7 +416,8 @@ export const studentData = [
     sex: "M",
     grade1: 69,
     grade2: 25,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 94,
   },
   {
     id: 43,
@@ -384,7 +426,8 @@ export const studentData = [
     sex: "F",
     grade1: 25,
     grade2: 90,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 115,
   },
   {
     id: 44,
@@ -393,7 +436,8 @@ export const studentData = [
     sex: "M",
     grade1: 18,
     grade2: 33,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=male",
+    overall: 51,
   },
   {
     id: 45,
@@ -402,7 +446,8 @@ export const studentData = [
     sex: "F",
     grade1: 11,
     grade2: 1,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 12,
   },
   {
     id: 46,
@@ -411,7 +456,8 @@ export const studentData = [
     sex: "F",
     grade1: 53,
     grade2: 21,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 74,
   },
   {
     id: 47,
@@ -420,7 +466,8 @@ export const studentData = [
     sex: "F",
     grade1: 62,
     grade2: 1,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 63,
   },
   {
     id: 48,
@@ -429,7 +476,8 @@ export const studentData = [
     sex: "F",
     grade1: 15,
     grade2: 93,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 108,
   },
   {
     id: 49,
@@ -438,7 +486,8 @@ export const studentData = [
     sex: "F",
     grade1: 54,
     grade2: 83,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 137,
   },
   {
     id: 50,
@@ -447,6 +496,7 @@ export const studentData = [
     sex: "F",
     grade1: 7,
     grade2: 32,
-    overall: "",
+    pic: "https://xsgames.co/randomusers/avatar.php?g=female",
+    overall: 39,
   },
 ];
