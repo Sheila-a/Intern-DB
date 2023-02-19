@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import PaginatedItems from "./components/Pagination";
+// import PaginatedItems from "./components/Pagination";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

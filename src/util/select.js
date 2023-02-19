@@ -8,16 +8,16 @@ import { studentData } from "../data/studentData";
 import { useState } from "react";
 
 export default function BasicSelect() {
-  const [sdata, setSData] = useState(studentData);
-  const [orders, setorders] = useState("ASC");
+  // const [sdata, setSData] = useState(studentData);
+  // const [orders, setorders] = useState("ASC");
 
-  const sorting = (cof) => {
-    if (orders === "ASC") {
-      const sorted = [...sdata].sort((a, b) =>
-        a[cof].toLowerCase() > b[cof].toLowerCase() ? 1 : -1
-      );
-    }
-  };
+  // const sorting = (cof) => {
+  //   if (orders === "ASC") {
+  //     const sorted = [...sdata].sort((a, b) =>
+  //       a[cof].toLowerCase() > b[cof].toLowerCase() ? 1 : -1
+  //     );
+  //   }
+  // };
   const [sortStudents, setAge] = React.useState("");
 
   const handleChange = (event) => {
@@ -39,9 +39,21 @@ export default function BasicSelect() {
           label="Age"
           onChange={handleChange}
         >
-          <MenuItem onClick={() => sorting("firstName")}>First Name</MenuItem>
-          <MenuItem onClick={() => sorting("lastName")}>Last Name</MenuItem>
-          <MenuItem onClick={() => sorting("overall")}>Scores</MenuItem>
+          <MenuItem
+          // onClick={() => sorting("firstName")}
+          >
+            First Name
+          </MenuItem>
+          <MenuItem
+          // onClick={() => sorting("lastName")}
+          >
+            Last Name
+          </MenuItem>
+          <MenuItem
+          // onClick={() => sorting("overall")}
+          >
+            Scores
+          </MenuItem>
         </Select>
       </FormControl>
     </Box>

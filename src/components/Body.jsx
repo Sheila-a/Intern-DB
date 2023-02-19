@@ -1,49 +1,49 @@
 import { Box, ListItem, Stack } from "@mui/material";
-import React, { useState } from "react";
+import React from "react";
 import arrow from "../assets/image/double-arrow.png";
 import home from "../assets/image/home.png";
 import dashboard from "../assets/image/dashboard.png";
 import settings from "../assets/image/setting.png";
 import curriculum from "../assets/image/approved.png";
-import { studentData } from "../data/studentData";
+// import { studentData } from "../data/studentData";
 // import BasicSelect from "../util/select";
 import Tables from "./Table";
 
 function Body() {
-  const [sdata, setSData] = useState(studentData);
-  const [orders, setorders] = useState("ASC");
-  const Sorting = (cof) => {
-    if (orders === "ASC") {
-      const sorted = [...sdata].sort((a, b) =>
-        a[cof].toLowerCase() > b[cof].toLowerCase() ? 1 : -1
-      );
-      setSData(sorted);
-      setorders("DSC");
-    }
-    if (orders === "DSC") {
-      const sorted = [...sdata].sort((a, b) =>
-        a[cof].toLowerCase() < b[cof].toLowerCase() ? 1 : -1
-      );
-      setSData(sorted);
-      setorders("ASC");
-    }
-  };
-  const SortGrades = (cof) => {
-    if (orders === "ASC") {
-      const sorted = [...sdata].sort((a, b) => a.overall - b.overall);
+  // const [sdata, setSData] = useState(studentData);
+  // const [orders, setorders] = useState("ASC");
+  // const Sorting = (cof) => {
+  //   if (orders === "ASC") {
+  //     const sorted = [...sdata].sort((a, b) =>
+  //       a[cof].toLowerCase() > b[cof].toLowerCase() ? 1 : -1
+  //     );
+  //     setSData(sorted);
+  //     setorders("DSC");
+  //   }
+  //   if (orders === "DSC") {
+  //     const sorted = [...sdata].sort((a, b) =>
+  //       a[cof].toLowerCase() < b[cof].toLowerCase() ? 1 : -1
+  //     );
+  //     setSData(sorted);
+  //     setorders("ASC");
+  //   }
+  // };
+  // const SortGrades = (cof) => {
+  //   if (orders === "ASC") {
+  //     const sorted = [...sdata].sort((a, b) => a.overall - b.overall);
 
-      setSData(sorted);
-      setorders("DSC");
-    }
-    if (orders === "DSC") {
-      const sorted = [...sdata].sort((a, b) => b.overall - a.overall);
-      setSData(sorted);
-      setorders("ASC");
-    }
-  };
-  const [setCurrentPage] = useState(1);
+  //     setSData(sorted);
+  //     setorders("DSC");
+  //   }
+  //   if (orders === "DSC") {
+  //     const sorted = [...sdata].sort((a, b) => b.overall - a.overall);
+  //     setSData(sorted);
+  //     setorders("ASC");
+  //   }
+  // };
+  // const [setCurrentPage] = useState(1);
 
-  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+  // const paginate = (pageNumber) => setCurrentPage(pageNumber);
   return (
     <Box>
       <Stack

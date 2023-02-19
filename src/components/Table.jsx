@@ -101,12 +101,12 @@ function Tables() {
   };
 
   // to get number of students per page
-  const [currentPage, setCurrentPage] = useState(1);
-  const [postPerPage] = useState(6);
+  // const [currentPage] = useState(1);
+  // const [postPerPage] = useState(6);
 
   // // get current posts
-  const lastStudentIndex = currentPage * postPerPage;
-  const firstStudentIndex = lastStudentIndex - postPerPage;
+  // const lastStudentIndex = currentPage * postPerPage;
+  // const firstStudentIndex = lastStudentIndex - postPerPage;
   // const sortMe = studentData.sort(function (a, b) {
   //   return b.overall - a.overall;
   // });
