@@ -118,21 +118,7 @@ function Tables() {
   return (
     <>
       {" "}
-      <Stack
-        borderRadius="5px"
-        // direction="row"
-        display="flex"
-        flexDirection="row"
-        justifyContent="space-between"
-        // m="3vh 5vh"
-        mb="3vh"
-        padding="2vh 3vh"
-        style={{
-          boxShadow: "rgba(0, 0, 0, 0.1) 0px 5px 15px",
-
-          // backgroundColor: "white",
-        }}
-      >
+      <Stack className="table-container-head" flexDirection="row">
         <h3>Dashboard</h3>
         <h4>Sort by:</h4>
         <p onClick={() => Sorting("firstName")}>First Name</p>

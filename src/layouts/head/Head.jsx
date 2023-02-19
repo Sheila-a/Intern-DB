@@ -1,7 +1,8 @@
 import React from "react";
+import "../../assets/styles/main.css";
 
 function Head() {
-  return <div style={{ height: "15vh", top: "0", position: "sticky" }}></div>;
+  return <div className="headr"></div>;
 }
 
 export default Head;

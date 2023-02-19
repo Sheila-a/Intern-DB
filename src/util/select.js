@@ -27,10 +27,10 @@ export default function BasicSelect() {
   return (
     <Box
       sx={{
-        width: "25%",
+        width: "30%",
       }}
     >
-      <FormControl fullWidth>
+      <FormControl fullWidth className="">
         <InputLabel id="demo-simple-select-label">Filter</InputLabel>
         <Select
           labelId="demo-simple-select-label"

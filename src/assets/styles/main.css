@@ -6,6 +6,20 @@ body {
     background-position: fixed;
 }
 
+.headr {
+    height: 15vh;
+    top: 0;
+    position: sticky;
+
+}
+
+.Body-container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #def1f8;
+    margin: 0vh 12vh 5vh 12vh;
+    border-radius: 15px 15px;
+}
+
 p {
     color: rgba(35, 166, 213, 1);
     margin: auto 0vh;
@@ -60,3 +74,109 @@ p:hover {
 } */
 /* :nth-child() */
 /* color: green; */
+.sidee-container {
+    background: linear-gradient(#23a5d56b, #23a5d5, #23a5d5);
+    width: 20%;
+    border-radius: 15px 0 0 15px;
+}
+
+.sidee-container-inner {
+    top: 0;
+    position: sticky;
+}
+
+.sidee-h1 {
+    padding: 3.4vh 2vh;
+    background-color: #23a6d5;
+    margin: 0;
+    border-radius: 15px 0 0 0;
+    margin-bottom: 5vh;
+}
+
+.section-container {
+    width: 80%;
+}
+
+.section-head {
+    top: 0;
+    position: sticky;
+    background-color: white;
+    border-radius: 0 15px 0 0;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.137);
+}
+
+.arr {
+    padding: 0;
+    margin-left: 5vh;
+}
+
+.section-body {
+    border-radius: 5px;
+    margin: 2vh 5vh;
+    padding: 3vh;
+    background-color: white;
+}
+
+/* BODY END */
+
+
+/* TABLE BEGIN */
+.table-container-head {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+    padding: 2vh 3vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
+
+
+@media screen and (max-width: 430px) {
+    .headr {
+        height: 8vh;
+    }
+
+    .Body-container {
+        margin: 0 5vh;
+        height: 100vh;
+        flex-direction: column !important;
+    }
+
+    .sidee-container {
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .sidee-h1 {
+        margin-bottom: 0;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .section-container {
+        width: 100%;
+    }
+
+    .arr {
+        margin-left: 1vh;
+    }
+
+    .section-body {
+        margin: 2vh;
+    }
+
+    /* TABLE BEGINS */
+    .table-container-head {
+        flex-wrap: wrap;
+    }
+
+    .table-container-head:first-child {
+        display: inline;
+    }
+
+    .table-container-head:nth-child(4) {
+        display: inline-flex;
+    }
+
+
+}
