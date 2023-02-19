@@ -1,4 +1,4 @@
-import { Box, ListItem, Stack, Pagination } from "@mui/material";
+import { Box, ListItem, Stack } from "@mui/material";
 import React, { useState } from "react";
 import arrow from "../assets/image/double-arrow.png";
 import home from "../assets/image/home.png";
@@ -6,7 +6,7 @@ import dashboard from "../assets/image/dashboard.png";
 import settings from "../assets/image/setting.png";
 import curriculum from "../assets/image/approved.png";
 import { studentData } from "../data/studentData";
-import BasicSelect from "../util/select";
+// import BasicSelect from "../util/select";
 import Tables from "./Table";
 
 function Body() {
