@@ -4,8 +4,8 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
-import { studentData } from "../data/studentData";
-import { useState } from "react";
+// import { studentData } from "../data/studentData";
+// import { useState } from "react";
 
 export default function BasicSelect() {
   // const [sdata, setSData] = useState(studentData);
