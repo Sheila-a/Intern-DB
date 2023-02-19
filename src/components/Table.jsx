@@ -2,16 +2,11 @@ import React, { useState } from "react";
 import { studentData } from "../data/studentData";
 import BasicSelect from "../util/select";
 import { Stack } from "@mui/material";
-// import _ from "lodash";
 import PropTypes from "prop-types";
-// import { Sorting } from "../util";
-// import Sorting from "../util";
-// import SortGrades from "../util";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-// import Pagination from "./Pagination";
 import {
   Table,
   TableContainer,
@@ -20,7 +15,6 @@ import {
   TableRow,
 } from "@mui/material";
 
-// import Pagination from "@mui/material/Pagination";
 import {
   StyledTableCell,
   StyledTableRow,
@@ -59,7 +53,6 @@ function a11yProps(index) {
     "aria-controls": `simple-tabpanel-${index}`,
   };
 }
-// const pageSize = 6;
 function Tables() {
   const [value, setValue] = React.useState(0);
 
@@ -69,7 +62,7 @@ function Tables() {
   // to be able to sort firstname, lastname and scores
   const [sdata, setSData] = useState(studentData);
   const [orders, setorders] = useState("ASC");
-  // const [paginatedPost, setPaginatedPost] = useState();
+
   const Sorting = (cof) => {
     if (orders === "ASC") {
       const sorted = [...sdata].sort((a, b) =>
@@ -100,26 +93,11 @@ function Tables() {
     }
   };
 
-  // to get number of students per page
-  // const [currentPage] = useState(1);
-  // const [postPerPage] = useState(6);
-
-  // // get current posts
-  // const lastStudentIndex = currentPage * postPerPage;
-  // const firstStudentIndex = lastStudentIndex - postPerPage;
-  // const sortMe = studentData.sort(function (a, b) {
-  //   return b.overall - a.overall;
-  // });
-  // const pageCount = sdata ? Math.ceil(sdata.length / pageSize) : 0;
-  // if (pageCount === 1) return null;
-  // const pages = _.range(1, pageCount + 1);
-  // setPaginatedPost(_(sdata).slice(0).take(pageSize).value());
-
   return (
     <>
       {" "}
       <Stack className="table-container-head" flexDirection="row">
-        <h3>Dashboard</h3>
+        <h3 onClick="window.location.reload">Dashboard</h3>
         <h4>Sort by:</h4>
         <p onClick={() => Sorting("firstName")}>First Name</p>
         <p onClick={() => Sorting("lastName")}>Last Name</p>
@@ -147,7 +125,7 @@ function Tables() {
                 style={{ maxWidth: "100%", backgroundColor: "red" }}
               >
                 <TableRow style={{ backgroundColor: "red" }}>
-                  {/* <StyledTableCell className="TBHead">ID</StyledTableCell> */}
+                  <StyledTableCell className="TBHead">ID</StyledTableCell>
                   {/* <StyledTableCell align="center">Picture</StyledTableCell> */}
                   <StyledTableCell align="left" className="TBHead">
                     First Name
@@ -174,43 +152,36 @@ function Tables() {
                 </TableRow>
               </StyledTableHead>
               <TableBody>
-                {sdata
-                  //.sort(function (a, b) {
-                  //  return b.overall - a.overall;
-                  //})
-                  //.slice(firstStudentIndex, lastStudentIndex)
-                  .map((data) => (
-                    <StyledTableRow
-                      key={data.id}
-                      className="styledtR"
-                      style={{ cursor: "pointer" }}
-                    >
-                      {/* <StyledTableCell component="th" scope="row">
-                        {data.id}
-                      </StyledTableCell> */}
-                      {/* <StyledTableCell align="center" width="60">
+                {sdata.map((data) => (
+                  <StyledTableRow
+                    key={data.id}
+                    className="styledtR"
+                    style={{ cursor: "pointer" }}
+                  >
+                    <StyledTableCell component="th" scope="row">
+                      {data.id}
+                    </StyledTableCell>
+                    {/* <StyledTableCell align="center" width="60">
                   <img src={data.pic} alt="" width="70%" />
                 </StyledTableCell> */}
-                      <StyledTableCell align="left">
-                        {data.firstName}
-                      </StyledTableCell>
-                      <StyledTableCell align="center">
-                        {data.lastName}
-                      </StyledTableCell>
-                      <StyledTableCell align="center">
-                        {data.sex}
-                      </StyledTableCell>
-                      <StyledTableCell align="center">
-                        {data.grade1}
-                      </StyledTableCell>
-                      <StyledTableCell align="center">
-                        {data.grade2}
-                      </StyledTableCell>
-                      <StyledTableCell align="center">
-                        {data.grade1 + data.grade2}
-                      </StyledTableCell>
-                    </StyledTableRow>
-                  ))}
+                    <StyledTableCell align="left">
+                      {data.firstName}
+                    </StyledTableCell>
+                    <StyledTableCell align="center">
+                      {data.lastName}
+                    </StyledTableCell>
+                    <StyledTableCell align="center">{data.sex}</StyledTableCell>
+                    <StyledTableCell align="center">
+                      {data.grade1}
+                    </StyledTableCell>
+                    <StyledTableCell align="center">
+                      {data.grade2}
+                    </StyledTableCell>
+                    <StyledTableCell align="center">
+                      {data.grade1 + data.grade2}
+                    </StyledTableCell>
+                  </StyledTableRow>
+                ))}
               </TableBody>
             </Table>
           </TableContainer>

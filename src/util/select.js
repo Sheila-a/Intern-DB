@@ -4,20 +4,8 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
-// import { studentData } from "../data/studentData";
-// import { useState } from "react";
 
 export default function BasicSelect() {
-  // const [sdata, setSData] = useState(studentData);
-  // const [orders, setorders] = useState("ASC");
-
-  // const sorting = (cof) => {
-  //   if (orders === "ASC") {
-  //     const sorted = [...sdata].sort((a, b) =>
-  //       a[cof].toLowerCase() > b[cof].toLowerCase() ? 1 : -1
-  //     );
-  //   }
-  // };
   const [sortStudents, setAge] = React.useState("");
 
   const handleChange = (event) => {
@@ -28,6 +16,7 @@ export default function BasicSelect() {
     <Box
       sx={{
         width: "30%",
+        zIndex: "0",
       }}
     >
       <FormControl fullWidth className="">
@@ -39,21 +28,9 @@ export default function BasicSelect() {
           label="Age"
           onChange={handleChange}
         >
-          <MenuItem
-          // onClick={() => sorting("firstName")}
-          >
-            First Name
-          </MenuItem>
-          <MenuItem
-          // onClick={() => sorting("lastName")}
-          >
-            Last Name
-          </MenuItem>
-          <MenuItem
-          // onClick={() => sorting("overall")}
-          >
-            Scores
-          </MenuItem>
+          <MenuItem>First Name</MenuItem>
+          <MenuItem>Last Name</MenuItem>
+          <MenuItem>Scores</MenuItem>
         </Select>
       </FormControl>
     </Box>

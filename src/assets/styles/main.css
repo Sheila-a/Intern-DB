@@ -2,7 +2,6 @@ body {
     background: linear-gradient(5deg, #ee7752, #23a6d5, #e73c7e);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    /* height: 90vh; */
     background-position: fixed;
 }
 
@@ -10,7 +9,6 @@ body {
     height: 15vh;
     top: 0;
     position: sticky;
-
 }
 
 .Body-container {
@@ -26,8 +24,6 @@ p {
     cursor: pointer;
 }
 
-
-
 p:hover {
     color: #e73c7e;
 }
@@ -39,6 +35,7 @@ p:hover {
 .sidee:hover {
     background-color: white;
     cursor: pointer;
+    transition: .5s ease;
 }
 
 .side-icns {
@@ -48,32 +45,6 @@ p:hover {
     margin-right: 4vh;
 }
 
-.styledTR:hover {
-    opacity: .5;
-}
-
-.TBHead {
-    /* background: linear-gradient(5deg, #ee7752, #23a6d5, #e73c7e); */
-    /*  */
-    background-color: #23a6d5 !important;
-    font-family: "Poppins" !important;
-}
-
-/* @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-} */
-/* :nth-child() */
-/* color: green; */
 .sidee-container {
     background: linear-gradient(#23a5d56b, #23a5d5, #23a5d5);
     width: 20%;
@@ -103,6 +74,7 @@ p:hover {
     background-color: white;
     border-radius: 0 15px 0 0;
     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.137);
+    z-index: 1;
 }
 
 .arr {
@@ -137,6 +109,17 @@ p:hover {
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
 }
+
+.styledTR:hover {
+    opacity: .5;
+}
+
+.TBHead {
+    background-color: #23a6d5 !important;
+    font-family: "Poppins" !important;
+}
+
+
 
 @media screen and (max-width: 430px) {
     .headr {
@@ -191,5 +174,4 @@ p:hover {
         flex-wrap: wrap;
     }
 
-    .table-container-body {}
 }
